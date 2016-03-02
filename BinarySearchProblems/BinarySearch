@@ -1,0 +1,26 @@
+Find the value of a key at a perticular instance of time
+t=0 put(a,hello)
+t=1 put(a,world)
+t=2 put(b,hi)
+HashMap<Key,ArrayList<Pair<Value, Time>>>
+Complexity : O(log M)
+K=#of keys
+M=#of modification per key
+
+---------------------------------------------
+If the Put operation also takes time then we have to use BST as the element can be inserted in the middle 
+HashMap<Key,TreeMap<Time,Value>>
+Complexity:
+get O(Log M)
+insert O(Log M)
+
+-------------------------------------------------
+
+M sorted array of N elements find largest overall element
+--------------------------------------------------------------
+
+
+Test if the tree breaks
+
+
+
